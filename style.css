@@ -3,23 +3,40 @@ body {
 }
 
 #core {
-	width: 1065px;
-	height: 670px;
+	width: 1225px;
+	height: 750px;
 	margin: auto;
 }
 
 #block1 {
-	width: 1065px;
+	width: 1225px;
 	height: 85px;
 	display: inline-block;
 	background-color: #06bcf9;
+	margin-bottom: 5px;
+}
+
+#block1 p {
+	color: white;
+	line-height: 42px;
 }
 
 #block2 {
-	width: 33%;
+	width: 400px;
 	height: 385px;
+	position: relative;
 	display: inline-block;
 	background-color: white;
+	margin-right: 2px;
+}
+
+#block2 div {
+	width: 100%;
+	height: 45px;
+	color: white;
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.4);
 }
 
 .block3 {
@@ -30,17 +47,36 @@ body {
 }
 
 			.inblock1 {
-				width: 172px;
+				width: 200px;
 				height: 190px;
+				position: relative;
 				display : inline-block;
 				background-color: #b3fff0;
+			}
+
+			.inblock1 div {
+				width: 100%;
+				height: 45px;
+				position: absolute;
+				bottom: 0;
+				background-color: rgba(77,255,219,1);
 			}
 
 			.inblock2 {
 				width: 173px;
 				height: 190px;
+				position: relative;
 				display: inline-block;
 				background-color: #ffdb4d;
+				margin-right: 10px;
+			}
+
+			.inblock2 div {
+				width: 100%;
+				height: 45px;
+				position: absolute;
+				bottom: 0;
+				background-color: rgba(255,204,0,1);
 			}
 
 			.inblock3 {
@@ -48,10 +84,11 @@ body {
 				height: 190px;
 				display: inline-block;
 				background-color: #b380ff;
+				margin: auto;
 			}
 
 			.inblock4 {
-				width: 173px;
+				width: 200px;
 				height: 190px;
 				display: inline-block;
 				background-color: #ff6666;
@@ -67,13 +104,23 @@ body {
 #block4 {
 	width: 33%;
 	height: 385px;
+	position: relative;
 	display: inline-table;
 	vertical-align: top;
 	background-color: #b3fff0;
 }
 
+#block4 div {
+	width: 100%;
+	height: 45px;
+	color: white;
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(51,133,255,0.9);
+}
+
 #block5 {
-	width: 350px;
+	width: 400px;
 	height: 190px;
 	display: inline-table;
 	background-color: #ffdb4d;
