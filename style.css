@@ -12,7 +12,7 @@ body {
 	width: 1250px;
 	height: 85px;
 	display: inline-block;
-	background-color: #06bcf9;
+	background-color: rgb(55,187,210);
 	margin-bottom: 10px;
 }
 
@@ -50,7 +50,7 @@ body {
 				height: 200px;
 				position: relative;
 				display : inline-block;
-				background-color: #b3fff0;
+				background-color: rgb(183,246,201);
 				margin-right: 5px;
 				margin-bottom: 5px;
 			}
@@ -68,7 +68,7 @@ body {
 				height: 200px;
 				position: relative;
 				display: inline-block;
-				background-color: #ffdb4d;
+				background-color: rgb(251,255,134);
 				margin-bottom: 5px;
 			}
 
@@ -84,15 +84,18 @@ body {
 				width: 200px;
 				height: 200px;
 				display: inline-block;
-				background-color: #b380ff;
-				margin-right: 5px;
+				background-color: rgb(180,131,255);
+				margin-left: 5px;
+				margin-bottom: 5px;
+				margin-top: 5px;
 			}
 
 			.inblock4 {
 				width: 200px;
 				height: 200px;
 				display: inline-block;
-				background-color: #ff6666;
+				background-color: rgb(250,138,126);
+				margin-bottom: 5px;
 			}
 
 			#inblock5 {
@@ -108,8 +111,8 @@ body {
 				height: 200px;
 				position: relative;
 				display : inline-block;
-				background-color: #b3fff0;
-				margin-left: 5px;
+				background-color: rgb(183,246,201);
+				margin-bottom: 5px;
 			}
 
 			.inblock1bis div {
@@ -125,7 +128,7 @@ body {
 				height: 200px;
 				position: relative;
 				display: inline-block;
-				background-color: #ffdb4d;
+				background-color: rgb(183,246,201);
 			}
 
 			.inblock2bis div {
@@ -138,11 +141,10 @@ body {
 
 #block4 {
 	width: 410px;
-	height: 410px;
+	height: 200px;
 	position: relative;
 	display: inline-block;
-	background-color: #b3fff0;
-	margin-bottom: 5px;
+	background-color: rgb(126,254,255);
 }
 
 #block4 div {
@@ -154,27 +156,11 @@ body {
 	background-color: rgba(51,133,255,0.9);
 }
 
-#block5 {
-	width: 410px;
-	height: 200px;
-	display: inline-table;
-	background-color: #ffdb4d;
-	margin-top: 5px;
-	margin-bottom: 10px;
-}
 
 #block6 {
 	width: 410px;
 	height: 410px;
 	display: inline-block;
-	background-color: #b380ff;
-	margin-top: 5px; 
-}
-
-#block7 {
-	width: 410px;
-	height: 200px;
-	display: inline-block;
-	background-color: #ff6666;
-	margin-top: 5px;
+	background-color: rgb(250,138,126);
+	margin-top: 0px; 
 }
